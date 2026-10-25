@@ -1,0 +1,348 @@
+{
+  "retrieved_at": "2026-10-25T07:32:27.623746+00:00",
+  "requests": [
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2025-12-30T00%3A00%3A00Z&publishDateTimeTo=2025-12-31T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 0
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2025-12-31T00%3A00%3A00Z&publishDateTimeTo=2026-01-01T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 176
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-01T00%3A00%3A00Z&publishDateTimeTo=2026-01-02T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 368
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-02T00%3A00%3A00Z&publishDateTimeTo=2026-01-03T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 560
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-03T00%3A00%3A00Z&publishDateTimeTo=2026-01-04T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-04T00%3A00%3A00Z&publishDateTimeTo=2026-01-05T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-05T00%3A00%3A00Z&publishDateTimeTo=2026-01-06T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-06T00%3A00%3A00Z&publishDateTimeTo=2026-01-07T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-07T00%3A00%3A00Z&publishDateTimeTo=2026-01-08T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-08T00%3A00%3A00Z&publishDateTimeTo=2026-01-09T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-09T00%3A00%3A00Z&publishDateTimeTo=2026-01-10T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-10T00%3A00%3A00Z&publishDateTimeTo=2026-01-11T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-11T00%3A00%3A00Z&publishDateTimeTo=2026-01-12T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-12T00%3A00%3A00Z&publishDateTimeTo=2026-01-13T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-13T00%3A00%3A00Z&publishDateTimeTo=2026-01-14T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-14T00%3A00%3A00Z&publishDateTimeTo=2026-01-15T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-15T00%3A00%3A00Z&publishDateTimeTo=2026-01-16T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-16T00%3A00%3A00Z&publishDateTimeTo=2026-01-17T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-17T00%3A00%3A00Z&publishDateTimeTo=2026-01-18T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-18T00%3A00%3A00Z&publishDateTimeTo=2026-01-19T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-19T00%3A00%3A00Z&publishDateTimeTo=2026-01-20T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-20T00%3A00%3A00Z&publishDateTimeTo=2026-01-21T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-21T00%3A00%3A00Z&publishDateTimeTo=2026-01-22T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-22T00%3A00%3A00Z&publishDateTimeTo=2026-01-23T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-23T00%3A00%3A00Z&publishDateTimeTo=2026-01-24T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-24T00%3A00%3A00Z&publishDateTimeTo=2026-01-25T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-25T00%3A00%3A00Z&publishDateTimeTo=2026-01-26T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-26T00%3A00%3A00Z&publishDateTimeTo=2026-01-27T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-27T00%3A00%3A00Z&publishDateTimeTo=2026-01-28T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-28T00%3A00%3A00Z&publishDateTimeTo=2026-01-29T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-29T00%3A00%3A00Z&publishDateTimeTo=2026-01-30T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-30T00%3A00%3A00Z&publishDateTimeTo=2026-01-31T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 584
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2026-01-31T00%3A00%3A00Z&publishDateTimeTo=2026-02-01T00%3A00%3A00Z",
+      "received": 584,
+      "retained": 408
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-02T00%3A00%3A00Z&publishDateTimeTo=2026-01-03T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 48
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-03T00%3A00%3A00Z&publishDateTimeTo=2026-01-04T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-04T00%3A00%3A00Z&publishDateTimeTo=2026-01-05T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-05T00%3A00%3A00Z&publishDateTimeTo=2026-01-06T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-06T00%3A00%3A00Z&publishDateTimeTo=2026-01-07T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-07T00%3A00%3A00Z&publishDateTimeTo=2026-01-08T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-08T00%3A00%3A00Z&publishDateTimeTo=2026-01-09T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-09T00%3A00%3A00Z&publishDateTimeTo=2026-01-10T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-10T00%3A00%3A00Z&publishDateTimeTo=2026-01-11T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-11T00%3A00%3A00Z&publishDateTimeTo=2026-01-12T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-12T00%3A00%3A00Z&publishDateTimeTo=2026-01-13T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-13T00%3A00%3A00Z&publishDateTimeTo=2026-01-14T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-14T00%3A00%3A00Z&publishDateTimeTo=2026-01-15T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-15T00%3A00%3A00Z&publishDateTimeTo=2026-01-16T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-16T00%3A00%3A00Z&publishDateTimeTo=2026-01-17T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-17T00%3A00%3A00Z&publishDateTimeTo=2026-01-18T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-18T00%3A00%3A00Z&publishDateTimeTo=2026-01-19T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-19T00%3A00%3A00Z&publishDateTimeTo=2026-01-20T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-20T00%3A00%3A00Z&publishDateTimeTo=2026-01-21T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-21T00%3A00%3A00Z&publishDateTimeTo=2026-01-22T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-22T00%3A00%3A00Z&publishDateTimeTo=2026-01-23T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-23T00%3A00%3A00Z&publishDateTimeTo=2026-01-24T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-24T00%3A00%3A00Z&publishDateTimeTo=2026-01-25T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-25T00%3A00%3A00Z&publishDateTimeTo=2026-01-26T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-26T00%3A00%3A00Z&publishDateTimeTo=2026-01-27T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-27T00%3A00%3A00Z&publishDateTimeTo=2026-01-28T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-28T00%3A00%3A00Z&publishDateTimeTo=2026-01-29T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-29T00%3A00%3A00Z&publishDateTimeTo=2026-01-30T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-30T00%3A00%3A00Z&publishDateTimeTo=2026-01-31T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-01-31T00%3A00%3A00Z&publishDateTimeTo=2026-02-01T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-02-01T00%3A00%3A00Z&publishDateTimeTo=2026-02-02T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 49
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-02-02T00%3A00%3A00Z&publishDateTimeTo=2026-02-03T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 1
+    },
+    {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?publishDateTimeFrom=2026-02-03T00%3A00%3A00Z&publishDateTimeTo=2026-02-04T00%3A00%3A00Z",
+      "received": 980,
+      "retained": 0
+    }
+  ],
+  "decision_range": [
+    "2026-01-01",
+    "2026-01-31"
+  ],
+  "delivery_range": [
+    "2026-01-02",
+    "2026-02-01"
+  ],
+  "sha256_uncompressed": "b020037846cbb34673859b9174022e41e75e72621c36a809402a9fce3e28bdfb",
+  "records": {
+    "WINDFOR": 17864,
+    "FUELHH": 1488
+  }
+}
