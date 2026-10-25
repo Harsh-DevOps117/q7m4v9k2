@@ -1,0 +1,73 @@
+%% Wind Desk: project purpose, workflow, architecture and scope.
+%% Open this file in a Mermaid-compatible viewer to render the diagram.
+flowchart TB
+    PURPOSE["WIND DESK<br/>Help a UK utility understand tomorrow's wind outlook<br/>and quantify forecast error before buying electricity"]
+
+    subgraph SCOPE["Pilot scope"]
+        DATES["Purchase decisions: 1-31 January 2026<br/>Next-day deliveries: 2 January-1 February 2026"]
+        COVERAGE["Elexon national wind data for Great Britain<br/>Historical snapshot, not a live market feed"]
+    end
+
+    subgraph SOURCES["1. Collect and preserve evidence"]
+        FORECAST["WINDFOR<br/>Wind forecast, target time and publication time"]
+        ACTUAL["FUELHH filtered to WIND<br/>Half-hourly actual generation"]
+        INGEST["Python ingestion script<br/>Fetch, filter and deduplicate records"]
+        SNAPSHOT["Compressed source snapshot and manifest<br/>Query provenance and SHA-256 integrity check"]
+        FORECAST --> INGEST
+        ACTUAL --> INGEST
+        INGEST --> SNAPSHOT
+    end
+
+    subgraph ENGINE["2. Reconstruct the decision and evaluate performance"]
+        INPUT["Choose a January decision date and London cutoff<br/>Default cutoff: 09:00, an editable pilot assumption"]
+        SELECT["For each next-day hour, select the latest forecast<br/>published at or before the decision cutoff"]
+        ALIGN["Pilot alignment assumption<br/>Compare hourly forecast with the mean of two half-hour actuals<br/>Require both readings; retain missing values as gaps"]
+        SCORE["Shared accuracy calculations<br/>MAE, RMSE, bias, WAPE, percentiles and coverage<br/>Signed error = forecast minus actual"]
+        HISTORY["Historical error scenarios<br/>Use earlier complete delivery dates and actuals known by cutoff<br/>Not a calibrated prediction interval"]
+        INPUT --> SELECT
+        SNAPSHOT --> SELECT
+        SNAPSHOT --> ALIGN
+        SELECT --> ALIGN
+        ALIGN --> SCORE
+        SELECT --> HISTORY
+        SNAPSHOT --> HISTORY
+    end
+
+    subgraph PRODUCT["3. Give the procurement team a clear view"]
+        DESK["Decision workspace<br/>Hourly forecast, energy outlook and publication timestamps<br/>Prior error scenario; optional retrospective actuals"]
+        REVIEW["Forecast accuracy<br/>Monthly results, daily drill-down and hourly bias"]
+        AUDIT["Data and methodology<br/>Source provenance, assumptions and metric definitions"]
+        EXPORT["CSV export<br/>Selected forecasts, actuals, errors and audit timestamps"]
+        SELECT --> DESK
+        HISTORY --> DESK
+        SCORE --> REVIEW
+        SNAPSHOT --> AUDIT
+        ALIGN --> EXPORT
+    end
+
+    subgraph BUILD["Software design"]
+        REACT["React and TypeScript<br/>Pages, reusable components, typed data hook and formatting"]
+        API["Python and FastAPI<br/>Routes call a service layer over analytics and a snapshot repository"]
+        DOCKER["Docker<br/>Build React assets and serve the frontend plus API in one container"]
+        QUALITY["SOLID and DRY<br/>Focused modules and injected service dependencies<br/>Shared selection and scoring rules across views and exports"]
+        REACT <-->|"JSON API"| API
+        DOCKER --> REACT
+        DOCKER --> API
+        QUALITY -.-> REACT
+        QUALITY -.-> API
+    end
+
+    LIMIT["Business boundary<br/>Quantifies national wind uncertainty, not a utility purchase quantity<br/>Demand, prices, contracts and portfolio exposure are outside this pilot"]
+
+    PURPOSE --> SCOPE
+    PURPOSE --> INPUT
+    COVERAGE --> SOURCES
+    PRODUCT -.-> BUILD
+    PRODUCT --> LIMIT
+
+    classDef primary fill:#102c29,color:#f4f6ed,stroke:#102c29;
+    classDef output fill:#edf3e8,color:#223b32,stroke:#9eb99b;
+    classDef caveat fill:#f8f1e5,color:#70542f,stroke:#c6a773;
+    class PURPOSE primary;
+    class DESK,REVIEW,AUDIT,EXPORT output;
+    class LIMIT,ALIGN,HISTORY caveat;
