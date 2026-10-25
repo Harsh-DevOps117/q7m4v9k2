@@ -10,7 +10,7 @@ The application has three views:
 
 CSV exports retain decision cutoff, publication timestamp, forecast lead time, actuals and signed error.
 
-For a visual explanation of the project's purpose, data flow and architecture, open [the Mermaid project overview](docs/project-overview.mmd) in a Mermaid-compatible viewer.
+Read the [project overview](docs/project-overview.md) for a plain-language explanation of the problem, features, data flow and software design.
 
 ![Wind Desk workspace](docs/workspace.png)
 
