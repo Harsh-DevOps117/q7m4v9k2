@@ -8,5 +8,11 @@ frontend/dist/
 .vercel/
 test-results/
 playwright-report/
-docs/demo.mp4
 artifacts/
+
+# Recordings and demo videos
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi

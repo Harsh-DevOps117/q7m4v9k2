@@ -63,3 +63,16 @@ def test_routes_and_snapshot_metadata():
     assert client.get("/api/health").json()["status"] == "ok"
     assert len(client.get("/api/metadata").json()["sha256_uncompressed"]) == 64
     assert client.get("/api/docs").status_code == 200
+
+
+def test_vercel_entry_restores_rewritten_path():
+    from api.index import app as vercel_app
+
+    vercel = TestClient(vercel_app)
+    assert vercel.get("/api/index.py?__path=health").json()["status"] == "ok"
+    day = vercel.get(
+        "/api/index.py",
+        params={"__path": "day", "decision_date": "2026-01-15", "cutoff": "09:00"},
+    )
+    assert day.status_code == 200 and len(day.json()["rows"]) == 24
+    assert vercel.get("/api/health").status_code == 200
